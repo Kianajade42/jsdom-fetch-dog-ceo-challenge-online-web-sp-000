@@ -1,4 +1,4 @@
-console.log('%c HI', 'color: firebrick')
+
 let breeds =[]
 document.addEventListener('DomContentLoaded',function () {
   loadImages();
