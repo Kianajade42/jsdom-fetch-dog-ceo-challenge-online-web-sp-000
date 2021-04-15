@@ -1,4 +1,4 @@
-let breeds =[];
+let breed =[];
 document.addEventListener('DomContentLoaded',function () {
   loadImages();
   loadbreedOptions();
