@@ -14,7 +14,7 @@ function loadImages(){
  function addImage(dogPicUrl) {
    let container= document.querySelector('#dog-image-container');
    let newImageEl= document.createElement('img');
-   newImageEl.src=dogPicUrl
+   newImageEl.src=dogPicUrl;
    container.appendChild(newImageEl);
  }
  function loadBreedOptions() {
