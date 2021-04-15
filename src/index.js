@@ -5,8 +5,8 @@ document.addEventListener('DomContentLoaded',function () {
   loadbreedOptions();
 });
 function loadImages()
-{ const imgone = "https://dog.ceo/api/breeds/image/random/4"}
- fetch(imgone)
+{ const imUrl = "https://dog.ceo/api/breeds/image/random/4"}
+ fetch(imUrl)
  .then(res=> res.json())
 .then (results => { results.message.forEach(image => addImage(image))});
 }
